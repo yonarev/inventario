@@ -1,0 +1,12 @@
+OBJ:
+    SISTEMA DE INVENTARIO 
+        con fastapi, sql , jinja2 (estudiando)
+INICIANDO 
+    git init 
+    git remote add origin https://github.com/yonarev/inventario.git
+    git add .
+    git commit -m "Primer envio de codigo en python flask sql"
+    git status
+    git push --set-upstream origin master
+
+
