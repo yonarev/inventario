@@ -1,12 +1,59 @@
+TUTORIALES 
+    fastapi y jinja2 Para bd y presenta web OK
+        https://youtu.be/_YJLpJp4xq8
+
+    Validación de datos en API con FASTAPI
+        https://www.youtube.com/watch?v=gpGsDfi2hyM
+DOCUMENTACION
+    Static Files
+        https://fastapi.tiangolo.com/es/tutorial/static-files/
+    Templates
+        https://fastapi.tiangolo.com/es/advanced/templates/
+    Custom Response - HTML
+        https://fastapi.tiangolo.com/es/advanced/custom-response/?h=html
+    jinja2
+        https://jinja.palletsprojects.com/en/3.1.x/intro/
+    
 OBJ:
     SISTEMA DE INVENTARIO 
         con fastapi, sql , jinja2 (estudiando)
-INICIANDO 
-    git init 
-    git remote add origin https://github.com/yonarev/inventario.git
-    git add .
-    git commit -m "Primer envio de codigo para desarrollar en python sql"
-    git status
-    git push --set-upstream origin master
+INICIANDO
+    GENERANDO REPOSITORIO 
+        CREADO EN github repo inventario
+        git init 
+        git remote add origin https://github.com/yonarev/inventario.git
+        git add .
+        git commit -m "Primer envio de codigo para desarrollar en python sql"
+        git status
+        git push --set-upstream origin master
+    CREANDO ENTORNO VIRTUAL 
+        CREA ENTORNO
+            python -m venv venv
+        ACTIVA
+            venv\Scripts\activate
+        ACTUALIZA PYTHON PIP
+            python.exe -m pip install --upgrade pip
 
+    INSTALANDO LIBRERIAS 
+        pip install uvicorn fastapi
+        pip install "fastapi[all]"
+        pip install jinja2
+    EDITANDO MAIN 
+
+    LEVANTANDO SERVER EN:
+        http://127.0.0.1:8000
+        uvicorn main:app --reload
+        uvicorn main:app --reload --port 5000
+
+    DOCUMENTACION EN:
+        http://127.0.0.1:8000/docs
+
+PARA ACTUALIZAR CAMBIOS EN REPOSITORIO 
+    git remote -v //muestra repositorios del proyecto
+    git branch
+    git add .   
+    git commit -m "1era version en aprendizaje "
+    git push 
+    git pull 
+    
 
