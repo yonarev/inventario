@@ -5,8 +5,7 @@ INICIANDO
     git init 
     git remote add origin https://github.com/yonarev/inventario.git
     git add .
-    git commit -m "Primer envio de codigo en python sql"
-    git restore 
+    git commit -m "Primer envio de codigo para desarrollar en python sql"
     git status
     git push --set-upstream origin master
 
